@@ -23,16 +23,6 @@ Le script [src/model_freq_sev.py](src/model_freq_sev.py):
 - compare un scenario baseline a un scenario stress,
 - produit des fichiers de sortie exploitables pour un pitch recruteur.
 
-## Installation et execution
-Prerequis: Python 3.10+
-
-```bash
-pip install -r requirements.txt
-python src/model_freq_sev.py
-```
-
-Si `python` n'est pas reconnu sous Windows, installer Python depuis python.org puis relancer les commandes dans un nouveau terminal.
-
 ## Fichiers de sortie
 Le script genere:
 - `outputs/model_assumptions.csv`
@@ -40,20 +30,11 @@ Le script genere:
 - `outputs/loss_distribution_samples.csv`
 - `outputs/executive_note.txt`
 
-## Comment le presenter en entretien
-Trame courte (5 slides) disponible dans [presentation/pitch_recruteur.md](presentation/pitch_recruteur.md).
-
-Message cle a dire:
-"Je sais passer d'un modele statistique a une recommandation tarifaire sous scenario adverse."
-
 ## Competences demontrees
 - Actuariat Non-Vie: approche frequence-severite.
 - Statistiques appliquees au risque: distribution aggregate, VaR, TVaR.
 - Python data/quant: numpy, pandas, simulation Monte Carlo.
 - Communication metier: restitution executive et aide a la decision.
-
-## Ce que tu peux mettre sur ton CV
-Des formulations pretes a l'emploi sont disponibles dans [CV_LINKEDIN_SNIPPETS.md](CV_LINKEDIN_SNIPPETS.md).
 
 ## Pistes d'amelioration
 - Segmenter le portefeuille (profil conducteur, usage, region).
