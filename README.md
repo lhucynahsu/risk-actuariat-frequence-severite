@@ -1,4 +1,4 @@
-# Projet 2 - Risk/Actuariat
+# Projet  - Risk/Actuariat
 
 Modele simple frequence-severite (Poisson/Gamma) avec stress test, presente comme un cas metier assurance Non-Vie.
 
